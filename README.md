@@ -1,6 +1,6 @@
-# <img src="imgs/icon.jpg" alt="icon" height="50"/> ITINERA
+# <img src="imgs/icon.jpg" alt="icon" height="30"/> ITINERA
 
-[[Paper]](https://arxiv.org/abs/2402.07204) [[中文解读]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
+[[Paper]](https://arxiv.org/abs/2402.07204) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
 
 Code for our paper "ITINERA: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning" 
 
