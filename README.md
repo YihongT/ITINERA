@@ -18,7 +18,13 @@ Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINER
 * Generate urban travel plans by selecting and organizing points of interest (POIs) based on user needs in natural language.
 * Outperform traditional methods in delivering custom and spatially efficient itineraries, validated by experiments on real-world data.
 
-<img src="imgs/ouip.jpg" alt="qualitative" style="zoom: 50%;" />
+
+
+<p align="center">
+<img src="imgs/ouip.jpg" alt="ouip" width="80%"/> 
+</p>
+
+
 
 
 
@@ -29,7 +35,9 @@ Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINER
 
 Citywalk, a recently popular form of urban travel, requires genuine personalization and understanding of fine-grained requests compared to traditional itinerary planning. In this paper, we introduce the novel task of Open-domain Urban Itinerary Planning (OUIP), which generates personalized urban itineraries from user requests in natural language. We then present ITINERA, an OUIP system that integrates spatial optimization with large language models to provide customized urban itineraries based on user needs. This involves decomposing user requests, selecting candidate points of interest (POIs), ordering the POIs based on cluster-aware spatial optimization, and generating the itinerary. Experiments on real-world datasets and the performance of the deployed system demonstrate our system's capacity to deliver personalized and spatially coherent itineraries compared to current solutions.
 
-<img src="imgs/qualitative.jpg" alt="qualitative" style="zoom: 50%;" />
+<p align="center">
+<img src="imgs/qualitative.jpg" alt="qualitative" width="60%"/> 
+</p>
 
 
 
