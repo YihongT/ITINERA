@@ -4,9 +4,9 @@
 
 Code for our paper "ITINERA: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning" 
 
-Published at **EMNLP 2024** Industry Track
+Published at **EMNLP 2024 Industry Track**
 
-Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/urbcomp.jpg) at **KDD Urban Computing Workshop (UrbComp) 2024 **
+Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/urbcomp.jpg) at **KDD Urban Computing Workshop (UrbComp) 2024**
 
 
 
@@ -15,14 +15,13 @@ Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINER
 **TL;DR:** We present ITINERA, a system that integrates spatial optimization with large language models to generate customized and efficient itineraries for the Open-domain Urban Itinerary Planning (OUIP) problem.
 
 * Address personalized itinerary planning by decomposing user requests and optimizing routes using spatial clusters.
-
 * Generate urban travel plans by selecting and organizing points of interest (POIs) based on user needs in natural language.
-
 * Outperform traditional methods in delivering custom and spatially efficient itineraries, validated by experiments on real-world data.
 
-<p align="center">
-<img src="imgs/ouip.jpg" alt="scatter" width="100%"/> 
-</p>
+<img src="imgs/ouip.jpg" alt="qualitative" style="zoom: 50%;" />
+
+
+
 
 
 
@@ -30,7 +29,7 @@ Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINER
 
 Citywalk, a recently popular form of urban travel, requires genuine personalization and understanding of fine-grained requests compared to traditional itinerary planning. In this paper, we introduce the novel task of Open-domain Urban Itinerary Planning (OUIP), which generates personalized urban itineraries from user requests in natural language. We then present ITINERA, an OUIP system that integrates spatial optimization with large language models to provide customized urban itineraries based on user needs. This involves decomposing user requests, selecting candidate points of interest (POIs), ordering the POIs based on cluster-aware spatial optimization, and generating the itinerary. Experiments on real-world datasets and the performance of the deployed system demonstrate our system's capacity to deliver personalized and spatially coherent itineraries compared to current solutions.
 
-<img src="/Users/wzk/Library/Mobile Documents/com~apple~CloudDocs/Documents/doc/workplace/research/TuTu/itinera/ITINERA/imgs/qualitative.jpg" alt="qualitative" style="zoom: 50%;" />
+<img src="imgs/qualitative.jpg" alt="qualitative" style="zoom: 50%;" />
 
 
 
