@@ -1,4 +1,4 @@
-# <img src="imgs/icon.jpg" alt="icon" height="40"/> ITINERA
+# <img src="imgs/icon.jpg" alt="icon" height="40"/> ItiNera
 
 [[Paper]](https://arxiv.org/abs/2402.07204) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
 
@@ -12,11 +12,11 @@ Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINER
 
 ## ⭐️ Highlights
 
-**TL;DR:** We present ITINERA, a system that integrates spatial optimization with large language models to generate customized and efficient itineraries for the Open-domain Urban Itinerary Planning (OUIP) problem.
+**TL;DR:** We present ItiNera, a system that integrates spatial optimization with large language models to generate customized and efficient itineraries for the Open-domain Urban Itinerary Planning (OUIP) problem.
 
-* Address personalized itinerary planning by decomposing user requests and optimizing routes using spatial clusters.
-* Generate urban travel plans by selecting and organizing points of interest (POIs) based on user needs in natural language.
-* Outperform traditional methods in delivering custom and spatially efficient itineraries, validated by experiments on real-world data.
+* Addresses personalized itinerary planning by decomposing user requests and optimizing routes using spatial clusters.
+* Generates urban travel plans by selecting and organizing points of interest (POIs) based on user needs in natural language.
+* Outperforms traditional methods in delivering custom and spatially efficient itineraries, validated by experiments on real-world data.
 
 
 
@@ -79,9 +79,3 @@ If you find this work helpful for your research, please consider giving this rep
 ## 📃 License
 
 This project is released under the [MIT license](LICENSE). 
-
-
-
-## 🙏 Acknowledgements
-
-Our code is built with reference to the code of the following projects: TODO
