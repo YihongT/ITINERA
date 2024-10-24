@@ -8,7 +8,7 @@ Published at **EMNLP 2024 Industry Track**
 
 Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/urbcomp.jpg) at **KDD Urban Computing Workshop (UrbComp) 2024**
 
-
+**We will release our code in the next few weeks**
 
 ## ⭐️ Highlights
 
