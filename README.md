@@ -1,12 +1,18 @@
 # <img src="imgs/icon.jpg" alt="icon" height="40"/> ItiNera
 
-[[Paper]](https://arxiv.org/abs/2402.07204) [[Poster]]((imgs/Poster.png)) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
+[[Paper]](https://arxiv.org/abs/2402.07204) [[Poster]](imgs/Poster.png) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
 
 Code for our paper "ITINERA: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning" 
 
 Published at **EMNLP 2024 Industry Track**
 
-Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/urbcomp.jpg) at **KDD Urban Computing Workshop (UrbComp) 2024**
+Received [**Best Paper Award**](imgs/urbcomp.jpg) at **KDD Urban Computing Workshop (UrbComp) 2024**
+
+
+
+## 📰 News
+
+* [2024/11/8] We release the example dataset and inference code!
 
 
 
@@ -80,7 +86,8 @@ The repository is organized as follows:
 
 <details>
 <summary>Environment Setup</summary>
-This project is designed to run with Python 3.9.20. 
+This project is designed to run with Python 3.9.20. Install the dependencies with:
+
 
 ```bash
 pip install -r requirements.txt
@@ -190,6 +197,6 @@ You are welcome to donate to ItiNera with [Buy Me a Coffee](https://www.buymeaco
 
 <p align="center">
 <img src="imgs/buy_coffee.jpg" alt="ouip" width="35%"/> 
-  <span style="display:inline-block; width: 5%;"></span>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="imgs/donate.jpg" alt="ouip" width="35%"/> 
 </p>
