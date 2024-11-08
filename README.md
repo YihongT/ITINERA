@@ -1,6 +1,6 @@
 # <img src="imgs/icon.jpg" alt="icon" height="40"/> ItiNera
 
-[[Paper]](https://arxiv.org/abs/2402.07204) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
+[[Paper]](https://arxiv.org/abs/2402.07204) [[Poster]](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/Poster.png) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
 
 Code for our paper "ITINERA: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning" 
 
@@ -8,7 +8,14 @@ Published at **EMNLP 2024 Industry Track**
 
 Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/urbcomp.jpg) at **KDD Urban Computing Workshop (UrbComp) 2024**
 
-**We will release our code in the next few weeks**
+
+
+## 📰 News
+
+* [2024/11/8] We release the example dataset and inference code!
+
+
+
 
 ## ⭐️ Highlights
 
@@ -23,12 +30,6 @@ Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINER
 <p align="center">
 <img src="imgs/ouip.jpg" alt="ouip" width="80%"/> 
 </p>
-
-
-
-
-
-
 
 
 ## 📌 Abstract
@@ -47,17 +48,131 @@ Citywalk, a recently popular form of urban travel, requires genuine personalizat
 
 
 
+
 ## 🛠️ Usage
 
-- TODO
+Below are the instructions for running the open-source version of ItiNera. If you encounter any issues during the process, please open an issue in the repository for assistance.
 
-  
+<details>
+<summary>Repository Structure</summary>
+
+The repository is organized as follows:
+
+```
+│  .gitignore
+│  LICENSE
+│  main.py
+│  README.md
+│  requirements.txt
+│
+├─ imgs
+└─ model
+    │  itinera.py
+    │  itinera_en.py
+    │  search.py
+    │  spatial.py
+    │
+    ├─ data
+    │
+    ├─ output
+    │
+    └─ utils
+            all_en_prompts.py
+            all_prompts.py
+            funcs.py
+            proxy_call.py
+```
+</details>
+
+<details>
+<summary>Environment Setup</summary>
+This project is designed to run with Python 3.9.20. Install the dependencies with:
 
 
-## 📅 Schedule
+```bash
+pip install -r requirements.txt
+```
 
-* [ ]  Release example dataset
-* [ ]  Release inference code
+
+
+To run ItiNera, you need to set up your API key as an environment variable. Follow these instructions to export your API key:
+```bash
+export OPENAI_API_KEY="your_api_key_here"
+```
+</details>
+
+<details>
+<summary>Running Inference</summary>
+
+To run the inference, use the following commands based on the language version:
+
+For the Chinese version:
+```bash
+python main.py --type='zh'
+```
+
+For the English version:
+```bash
+python main.py --type='en'
+```
+
+</details>
+
+<details>
+<summary>Example Data</summary>
+
+Sample datasets for both the Chinese and English versions are located in the following path:
+```
+└─ model
+    ├─ data
+    │      shanghai_en.csv
+    │      shanghai_en.npy
+    │      shanghai_zh.csv
+    │      shanghai_zh.npy
+```
+
+- **.csv files**: Represent the Points of Interest (POI) dataset, where longitude and latitude are in the GCJ-02 coordinate system.
+- **.npy files**: Contain embeddings generated from the 'context' column of the POI dataset.
+
+The above data are only used for open-source and demonstration purposes, feel free to change to your own data in actual deployments.
+
+</details>
+
+
+<details>
+<summary>Output and Visualization</summary>
+Inference results are stored in `.json` files, while visualizations are provided in `.html` format. The output files are located in:
+
+```
+└─ model
+    ├─ output
+    │      2024_11_08_15_33_en.html                     
+    │      2024_11_08_15_33_en_fulltsp.html             
+    │      2024_11_08_15_33_en_response_clusters.html   
+    │      2024_11_08_15_36_zh.html
+    │      2024_11_08_15_36_zh_fulltsp.html
+    │      2024_11_08_15_36_zh_response_clusters.html
+    │      result_en.json                               
+    │      result_zh.json
+```
+
+- **`<date_time>_en.html`**: Visualization file for the generated itinerary in English.
+- **`<date_time>_en_fulltsp.html`**: Visualization file showing the ordered candidate Points of Interest (POIs) for the English itinerary.
+- **`<date_time>_en_response_clusters.html`**: Visualization of POI clusters for the English itinerary.
+- **`<date_time>_zh.html`, `<date_time>_zh_fulltsp.html`, `<date_time>_zh_response_clusters.html`**: Similar visualization files as above but in Chinese.
+- **`result_en.json`**: Inference results in JSON format for the English itinerary.
+- **`result_zh.json`**: Inference results in JSON format for the Chinese itinerary.
+
+A visualization script is provided, integrating with Folium to display interactive maps.
+
+</details>
+
+
+
+
+## 📃 License
+
+This project is released under the [license](LICENSE). For commercial use, please contact the authors directly via email.
 
 
 
@@ -76,6 +191,12 @@ If you find this work helpful for your research, please consider giving this rep
 
 
 
-## 📃 License
+## 💰 Donate
 
-This project is released under the [MIT license](LICENSE). 
+You are welcome to donate to ItiNera with [Buy Me a Coffee](https://www.buymeacoffee.com/yihongtangf) or WeChat:
+
+<p align="center">
+<img src="imgs/buy_coffee.jpg" alt="ouip" width="35%"/> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="imgs/donate.jpg" alt="ouip" width="35%"/> 
+</p>
