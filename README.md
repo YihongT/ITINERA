@@ -1,6 +1,6 @@
 # <img src="imgs/icon.jpg" alt="icon" height="40"/> ItiNera
 
-[[Paper]](https://arxiv.org/abs/2402.07204) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
+[[Paper]](https://arxiv.org/abs/2402.07204) [[Poster]]((imgs/Poster.png)) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
 
 Code for our paper "ITINERA: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning" 
 
@@ -9,10 +9,6 @@ Published at **EMNLP 2024 Industry Track**
 Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/urbcomp.jpg) at **KDD Urban Computing Workshop (UrbComp) 2024**
 
 
-## 📅 Schedule
-
-* [x]  Release example dataset
-* [x]  Release inference code
 
 
 ## ⭐️ Highlights
@@ -28,12 +24,6 @@ Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINER
 <p align="center">
 <img src="imgs/ouip.jpg" alt="ouip" width="80%"/> 
 </p>
-
-
-
-
-
-
 
 
 ## 📌 Abstract
@@ -53,17 +43,12 @@ Citywalk, a recently popular form of urban travel, requires genuine personalizat
 
 
 
-## 📊 Poster
-
-
-![Architecture](imgs/Poster.png)
-
-
 ## 🛠️ Usage
 
 Below are the instructions for running the open-source version of ItiNera. If you encounter any issues during the process, please open an issue in the repository for assistance.
 
-### Repository Structure
+<details>
+<summary>Repository Structure</summary>
 
 The repository is organized as follows:
 
@@ -91,17 +76,26 @@ The repository is organized as follows:
             funcs.py
             proxy_call.py
 ```
+</details>
 
-### Environment Setup
+<details>
+<summary>Environment Setup</summary>
+This project is designed to run with **Python 3.9.20**. 
 
-This project is designed to run with **Python 3.9.20**. Required packages and dependencies are specified in `requirements.txt`.
+```bash
+pip install -r requirements.txt
+```
+
+
 
 To run ItiNera, you need to set up your API key as an environment variable. Follow these instructions to export your API key:
-```
+```bash
 export OPENAI_API_KEY="your_api_key_here"
 ```
+</details>
 
-### Running Inference
+<details>
+<summary>Running Inference</summary>
 
 To run the inference, use the following commands based on the language version:
 
@@ -115,7 +109,10 @@ For the English version:
 python main.py --type='en'
 ```
 
-### Example Data
+</details>
+
+<details>
+<summary>Example Data</summary>
 
 Sample datasets for both the Chinese and English versions are located in the following path:
 ```
@@ -132,9 +129,11 @@ Sample datasets for both the Chinese and English versions are located in the fol
 
 The above data are only used for open-source and demonstration purposes, feel free to change to your own data in actual deployments.
 
+</details>
 
-### Output and Visualization
 
+<details>
+<summary>Output and Visualization</summary>
 Inference results are stored in `.json` files, while visualizations are provided in `.html` format. The output files are located in:
 
 ```
@@ -159,6 +158,16 @@ Inference results are stored in `.json` files, while visualizations are provided
 
 A visualization script is provided, integrating with Folium to display interactive maps.
 
+</details>
+
+
+
+
+## 📃 License
+
+This project is released under the [license](LICENSE). For commercial use, please contact the authors directly via email.
+
+
 
 ## 🖊️ Citation
 
@@ -175,6 +184,12 @@ If you find this work helpful for your research, please consider giving this rep
 
 
 
-## 📃 License
+## 💰 Donate
 
-This project is released under the [license](LICENSE). 
+You are welcome to donate to ItiNera with [Buy Me a Coffee](https://www.buymeacoffee.com/yihongtangf) or WeChat:
+
+<p align="center">
+<img src="imgs/buy_coffee.jpg" alt="ouip" width="35%"/> 
+  <span style="display:inline-block; width: 5%;"></span>
+<img src="imgs/donate.jpg" alt="ouip" width="35%"/> 
+</p>
