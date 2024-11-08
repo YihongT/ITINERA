@@ -80,7 +80,7 @@ The repository is organized as follows:
 
 <details>
 <summary>Environment Setup</summary>
-This project is designed to run with **Python 3.9.20**. 
+This project is designed to run with Python 3.9.20. 
 
 ```bash
 pip install -r requirements.txt
