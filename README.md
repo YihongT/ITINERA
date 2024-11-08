@@ -1,12 +1,12 @@
 # <img src="imgs/icon.jpg" alt="icon" height="40"/> ItiNera
 
-[[Paper]](https://arxiv.org/abs/2402.07204) [[Poster]](imgs/Poster.png) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
+[[Paper]](https://arxiv.org/abs/2402.07204) [[Poster]](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/Poster.png) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
 
 Code for our paper "ITINERA: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning" 
 
 Published at **EMNLP 2024 Industry Track**
 
-Received [**Best Paper Award**](imgs/urbcomp.jpg) at **KDD Urban Computing Workshop (UrbComp) 2024**
+Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/urbcomp.jpg) at **KDD Urban Computing Workshop (UrbComp) 2024**
 
 
 
