@@ -2,13 +2,13 @@
 
 [[Paper]](https://arxiv.org/abs/2402.07204) [[Poster]](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/Poster.png) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
 
-Code for our paper "ITINERA: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning" 
+Code for "ITINERA: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning" 
 
-Published at **EMNLP 2024 Industry Track**
+Published in the **EMNLP 2024 Industry Track** Proceedings
 
 Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/urbcomp.jpg) at **KDD Urban Computing Workshop (UrbComp) 2024**
 
-
+If you find our work valuable or interesting, please consider **starring** ⭐️ our repository. Thank you!
 
 ## 📰 News
 
@@ -17,7 +17,7 @@ Received [**Best Paper Award**](https://raw.githubusercontent.com/YihongT/ITINER
 
 
 
-## ⭐️ Highlights
+## ✨ Highlights
 
 **TL;DR:** We present ItiNera, a system that integrates spatial optimization with large language models to generate customized and efficient itineraries for the Open-domain Urban Itinerary Planning (OUIP) problem.
 
@@ -175,6 +175,12 @@ A visualization script is provided, integrating with Folium to display interacti
 This project is released under the [license](LICENSE). For commercial use, please contact the authors directly via email.
 
 
+## 🧰 Resources
+
+Here are some helpful resources for the development process.
+
+- [Scrapers](https://github.com/wzk1015/Scraper)
+- [Amap Docs](https://lbs.amap.com/api/webservice/summary)
 
 ## 🖊️ Citation
 
