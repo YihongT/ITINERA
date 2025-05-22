@@ -187,31 +187,12 @@ Here are some helpful resources for the development process.
 If you find this work helpful for your research, please consider giving this repo a star ⭐ and citing our paper:
 
 ```bibtex
-@inproceedings{tang-etal-2024-itinera,
-    title = "{I}ti{N}era: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning",
-    author = "Tang, Yihong  and
-      Wang, Zhaokai  and
-      Qu, Ao  and
-      Yan, Yihao  and
-      Wu, Zhaofeng  and
-      Zhuang, Dingyi  and
-      Kai, Jushi  and
-      Hou, Kebing  and
-      Guo, Xiaotong  and
-      Zhao, Jinhua  and
-      Zhao, Zhan  and
-      Ma, Wei",
-    editor = "Dernoncourt, Franck  and
-      Preo{\c{t}}iuc-Pietro, Daniel  and
-      Shimorina, Anastasia",
-    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track",
-    month = nov,
-    year = "2024",
-    address = "Miami, Florida, US",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.emnlp-industry.104",
-    pages = "1413--1432",
-    abstract = "Citywalk, a recently popular form of urban travel, requires genuine personalization and understanding of fine-grained requests compared to traditional itinerary planning. In this paper, we introduce the novel task of Open-domain Urban Itinerary Planning (OUIP), which generates personalized urban itineraries from user requests in natural language. We then present ItiNera, an OUIP system that integrates spatial optimization with large language models to provide customized urban itineraries based on user needs. This involves decomposing user requests, selecting candidate points of interest (POIs), ordering the POIs based on cluster-aware spatial optimization, and generating the itinerary. Experiments on real-world datasets and the performance of the deployed system demonstrate our system{'}s capacity to deliver personalized and spatially coherent itineraries compared to current solutions. Source codes of ItiNera are available at https://github.com/YihongT/ITINERA.",
+@inproceedings{tang2024itinera,
+  title={ItiNera: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning},
+  author={Tang, Yihong and Wang, Zhaokai and Qu, Ao and Yan, Yihao and Wu, Zhaofeng and Zhuang, Dingyi and Kai, Jushi and Hou, Kebing and Guo, Xiaotong and Zhao, Jinhua and others},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track},
+  pages={1413--1432},
+  year={2024}
 }
 ```
 
