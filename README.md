@@ -2,6 +2,8 @@
 
 [[Paper]](https://aclanthology.org/2024.emnlp-industry.104.pdf) [[ArXiv]](https://arxiv.org/abs/2402.07204) [[Poster]](https://raw.githubusercontent.com/YihongT/ITINERA/refs/heads/main/imgs/Poster.png) [[Video]](https://aclanthology.org/attachments/2024.emnlp-industry.104.video.mp4) [[公众号报道]](https://mp.weixin.qq.com/s/44mtENyqrHiNEEcWS61COg)
 
+[![Try ITINERA on Socialistic](https://socialistic.ai/api/embed/itinera-urban-citywalk-planner-5fb832?lang=en)](https://socialistic.ai/en/skill/itinera-urban-citywalk-planner-5fb832)
+
 Code for "ITINERA: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning" 
 
 Published in the **EMNLP 2024 Industry Track** Proceedings
